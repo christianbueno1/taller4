@@ -1,0 +1,30 @@
+header > h1{
+    text-align: center;
+    color: blue;
+    background-color: skyblue;
+    margin: 0 auto;
+}
+
+
+section#contenido div {
+    border: 1pt solid #cbccc1;
+    margin: 5px;
+}
+span#foto img{
+    width: 128px;
+}
+div.habilidades >div{
+    display: inline-block;
+    border-radius: 1em;
+    padding: 5pt;
+
+}
+div.habilidades div:first-child{
+    background-color: red;
+}
+div.habilidades div:last-child{
+    box-shadow: 3px 3px 5px teal;
+}
+body{
+    margin: 0 25% 0;
+}
