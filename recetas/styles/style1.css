@@ -1,6 +1,10 @@
+body {
+    text-align: center;
+}
 #wrapper {
-    width: 1000px;
+    width: 960px;
     margin: 15px auto;
+    text-align: left;
 }
 h1#titulo-sitio {
     font-size: 4em;
@@ -54,7 +58,7 @@ header> h2> a:hover {
 }
 /* detallado */
 img.img-detallado {
-    width: 320px;
+    width: 240px;
 }
 article:nth-child(7) {
     border-top: 2px solid skyblue;
@@ -65,12 +69,15 @@ article.detallado {
     padding-bottom: 1em;
 }
 /* inline-block */
-article.detallado figure,div {
+article.detallado header {
     display: inline-block;
+    vertical-align: top;
 }
 article.detallado div {
     width: 640px;
+    display: inline-block;
 }
-article.detallado header {
-    width: 320px;s
+article.detallado figure {
+    margin: 1.5em 1.5em 1.5em 0;
 }
+
